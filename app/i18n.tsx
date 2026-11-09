@@ -22,7 +22,9 @@ export function withBase(path:string):string{
  return base+path;
 }
 export function localizedHref(href:string,lang:Lang){
- if(/^\/(skola-subory|images|fonts)\//.test(href)||lang==='sk'||!href.startsWith('/')||href.startsWith('//')||/[?&]lang=/.test(href))return withBase(href);
+ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+ const localPath=base&&href.startsWith(base+'/')?href.slice(base.length):href;
+ if(/^\/(skola-subory|images|fonts)\//.test(localPath)||lang==='sk'||!href.startsWith('/')||href.startsWith('//')||/[?&]lang=/.test(href))return withBase(href);
  const [path,hash]=href.split('#');return withBase(path)+(path.includes('?')?'&':'?')+'lang=en'+(hash?'#'+hash:'');
 }
 // Translate the rendered presentation tree, including accessible names and linked routes.

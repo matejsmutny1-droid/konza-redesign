@@ -3,7 +3,7 @@ import Article from './article';
 import contentIndex from './content/index.json';
 import assetMap from './content/assets.json';
 import type {ContentPage} from './content/types';
-import {localize,translated,withBase,type Lang} from './i18n';
+import {localize,translated,withBase,localizedHref,type Lang} from './i18n';
 import {useEffect,useRef,useState,type ReactNode} from 'react';
 import {ArrowUpRight,ArrowRight,ArrowDown,Search,Menu,X,Plus,Minus,MapPin,Clock,CalendarPlus,ExternalLink,Music2} from 'lucide-react';
 export type View='home'|'studium'|'uchadzaci'|'koncerty'|'skola'|'studenti'|'kontakt'|'content';
@@ -50,7 +50,7 @@ function Arrow({up=false}:{up?:boolean}){return up?<ArrowUpRight size={20} strok
 function TextLink({href,children,external=false}:{href:string;children:ReactNode;external?:boolean}){external=external&&href.startsWith('http');return <a className="text-link" href={href} {...(external?{target:'_blank',rel:'noreferrer'}:{})}>{children}<Arrow up={external}/></a>;}
 function Label({children,number}:{children:ReactNode;number?:string}){return <div className="eyebrow">{number&&<span className="section-number">{number}</span>}{children}</div>;}
 function Modal({children,onClose,label,wide=false,lang='sk'}:{children:ReactNode;onClose:()=>void;label:string;wide?:boolean;lang?:Lang}){const ref=useRef<HTMLDialogElement>(null);useEffect(()=>{ref.current?.showModal();const old=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.body.style.overflow=old;};},[]);return localize(<dialog ref={ref} className={`modal ${wide?'wide':''}`} aria-label={label} onCancel={onClose} onClick={e=>{if(e.target===e.currentTarget)onClose();}}><button className="icon-button modal-close" onClick={onClose} aria-label="Zavrieť okno"><X/></button>{children}</dialog>,lang);}
-function PageIntro({label,title,text}:{label:string;title:ReactNode;text:string}){return <section className="page-intro"><a className="breadcrumb" href={withBase('/')}>KONZA<ArrowRight size={12}/><span>{label}</span></a><Label>{label}</Label><h1>{title}</h1><p>{text}</p></section>;}
+function PageIntro({label,title,text,lang='sk'}:{label:string;title:ReactNode;text:string;lang?:Lang}){return <section className="page-intro"><a className="breadcrumb" href={localizedHref('/',lang)}>KONZA<ArrowRight size={12}/><span>{label}</span></a><Label>{label}</Label><h1>{title}</h1><p>{text}</p></section>;}
 function CTA({lang='sk'}:{lang?:Lang}){return localize(<section className="cta-section"><Label>TVÔJ PRÍBEH EŠTE LEN ZAČÍNA</Label><div><h2>Daj svojmu talentu<br/><em>priestor.</em></h2><a className="button light" href="/uchadzaci">Objav svoju cestu<Arrow up/></a></div></section>,lang);}
 export default function Site({view,initialLang='sk',article}:{view:View;initialLang?:Lang;article?:ContentPage}){
 const lang=initialLang;
