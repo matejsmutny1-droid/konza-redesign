@@ -1,0 +1,362 @@
+[
+  {
+    "key": "dokumenty",
+    "title": "Dokumenty"
+  },
+  {
+    "key": "dokumenty/1-stipendia",
+    "title": "Štipendiá"
+  },
+  {
+    "key": "dokumenty/organizacny-a-pracovny-poriadok",
+    "title": "Organizačný a pracovný poriadok"
+  },
+  {
+    "key": "dokumenty/vnutorny-skolsky-poriadok",
+    "title": "Vnútorný poriadok školy"
+  },
+  {
+    "key": "dokumenty/vyhodnocovacie-spravy",
+    "title": "Vyhodnocovacie správy"
+  },
+  {
+    "key": "dokumenty/vzdelavaci-program",
+    "title": "Školský vzdelávací program"
+  },
+  {
+    "key": "galeria",
+    "title": "Galéria"
+  },
+  {
+    "key": "galeria/nova-budova-a-nove-triedy",
+    "title": "Nová budova A - nové triedy"
+  },
+  {
+    "key": "galeria/videa",
+    "title": "Videá zo školy"
+  },
+  {
+    "key": "galeria/virtualna-prehliadka",
+    "title": "Virtuálna prehliadka"
+  },
+  {
+    "key": "kalendar",
+    "title": "Kalendár"
+  },
+  {
+    "key": "kalendar/mesacny-plan",
+    "title": "Mesačný plán školy"
+  },
+  {
+    "key": "kalendar/rocny-plan",
+    "title": "Plán organizácie školského roka."
+  },
+  {
+    "key": "kontakt",
+    "title": "Kontakt"
+  },
+  {
+    "key": "kontakt/pristup-k-informaciam",
+    "title": "Poskytovanie informácií"
+  },
+  {
+    "key": "kontakt/studijne-oddelenie",
+    "title": "Študijné oddelenie"
+  },
+  {
+    "key": "o-skole",
+    "title": "O škole"
+  },
+  {
+    "key": "o-skole/27-obcianske-zdruzenie-pri-konzervatoriu-v-ziline",
+    "title": "Občianske združenie pri Konzervatóriu v Žiline"
+  },
+  {
+    "key": "o-skole/84-symfonicky-orchester-konzervatoria",
+    "title": "Symfonický orchester Konzervatória"
+  },
+  {
+    "key": "o-skole/aktuality",
+    "title": "Aktuality"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti",
+    "title": "Udalosti"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/116-sutaze-studentov-konzervatorii-sr",
+    "title": "Súťaž študentov konzervatórií SR"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/117-masterclass-s-medzinarodne-uznavanou-rakuskou-harfistkou-elizabeth-plank-tora",
+    "title": "Masterclass s medzinárodne uznávanou rakúskou harfistkou Elizabeth Plank Tora"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/119-hudba-z-renesancnych-lutnovych-tabulatur-seminar-a-interpretacne-kurzy",
+    "title": "Hudba z renesančných lutnových tabulatúr - Seminár a interpretačné kurzy"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/120-nasa-nova-ziacka-klubovna-studovna",
+    "title": "Naša nová žiacka klubovňa/študovňa"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/121-dievcensky-spevacky-zbor-konzervatoria-v-ziline-na-akademickej-banskej-bystrici-2025",
+    "title": "Dievčenský spevácky zbor Konzervatória v Žiline na Akademickej Banskej Bystrici 2025"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/135-studenti-spevackeho-oddelenia-konzervatoria",
+    "title": "Študenti speváckeho oddelenia Konzervatória"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/143-sutaz-prime-violin-2026",
+    "title": "Súťaž Prime Violin 2026"
+  },
+  {
+    "key": "o-skole/aktuality/10-udalosti/145-kto-hlada-ten-najde-v-kniznici-sa-nestratim",
+    "title": "Kto hľadá, ten nájde – v knižnici sa nestratím!"
+  },
+  {
+    "key": "o-skole/aktuality/113-konzervatorium-zilina-pozyva-na-koncert",
+    "title": "Konzervatórium v Žiline Vás pozýva"
+  },
+  {
+    "key": "o-skole/aktuality/115-konzervatorium-zilina-pozyva-2",
+    "title": "Konzervatórium v Žiline Vás pozýva"
+  },
+  {
+    "key": "o-skole/aktuality/137-konzervatorium-zilina-pozyva-3",
+    "title": "Konzervatórium v Žiline Vás pozýva"
+  },
+  {
+    "key": "o-skole/aktuality/138-konzervatorium-v-ziline-vas-pozyva-2",
+    "title": "Konzervatórium v Žiline Vás pozýva"
+  },
+  {
+    "key": "o-skole/aktuality/40-pripravne-kurzy",
+    "title": "Prípravné kurzy"
+  },
+  {
+    "key": "o-skole/aktuality/90-konzervatorium-zilina-vas-pozyva-7",
+    "title": "Konzervatórium v Žiline Vás pozýva na"
+  },
+  {
+    "key": "o-skole/aktuality/97-konzervatorium-zilina-pozyva",
+    "title": "Konzervatórium v Žiline Vás pozýva"
+  },
+  {
+    "key": "o-skole/historia-skoly",
+    "title": "História školy"
+  },
+  {
+    "key": "o-skole/manazment",
+    "title": "Vedenie školy"
+  },
+  {
+    "key": "o-skole/organizacia-vyucovania",
+    "title": "Organizácia vyučovania na Konzervatóriu"
+  },
+  {
+    "key": "o-skole/pedagogovia",
+    "title": "Pedagógovia"
+  },
+  {
+    "key": "o-skole/pedagogovia/10-oddelenie-drevenych-dychovych-nastrojov",
+    "title": "Oddelenie drevených dychových nástrojov"
+  },
+  {
+    "key": "o-skole/pedagogovia/11-oddelenie-hry-na-klaviri-a-korepeticii",
+    "title": "Oddelenie hry na klavíri a korepetícií"
+  },
+  {
+    "key": "o-skole/pedagogovia/12-klavirne-oddelenie",
+    "title": "Oddelenie hry na klavíri"
+  },
+  {
+    "key": "o-skole/pedagogovia/45-oddelenie-cirkevnej-hudby-dirigovania-hry-na-organe-a-skladby",
+    "title": "Oddelenie cirkevnej hudby, dirigovania, hry na organe a skladby"
+  },
+  {
+    "key": "o-skole/pedagogovia/46-spevacke-oddelenie",
+    "title": "Spevácke oddelenie"
+  },
+  {
+    "key": "o-skole/pedagogovia/48-oddelenie-dychovych-plechovych-a-bicich-nastrojov",
+    "title": "Oddelenie dychových plechových a bicích nástrojov"
+  },
+  {
+    "key": "o-skole/pedagogovia/49-oddelenie-slacikovych-nastrojov",
+    "title": "Oddelenie sláčikových nástrojov"
+  },
+  {
+    "key": "o-skole/pedagogovia/50-oddelenie-strunovych-nastrojov",
+    "title": "Oddelenie strunových nástrojov"
+  },
+  {
+    "key": "o-skole/pedagogovia/51-akordeonove-oddelenie",
+    "title": "Akordeónové oddelenie"
+  },
+  {
+    "key": "o-skole/pedagogovia/52-dirigent-symfonickeho-orchestra",
+    "title": "Dirigent symfonického orchestra"
+  },
+  {
+    "key": "o-skole/pedagogovia/53-oddelenie-spolocensko-vednych-a-hudobno-teoretickych-predmetov",
+    "title": "Oddelenie spoločensko-vedných a hudobno-teoretických predmetov"
+  },
+  {
+    "key": "o-skole/priestory",
+    "title": "Priestory"
+  },
+  {
+    "key": "o-skole/rada-skoly",
+    "title": "Rada školy pri Konzervatóriu Žilina"
+  },
+  {
+    "key": "o-skole/sutaz-ziakov-konzervatorii-sr",
+    "title": "Súťaž žiakov konzervatórií Slovenskej republiky"
+  },
+  {
+    "key": "o-skole/umelecka-rada",
+    "title": "Umelecká rada"
+  },
+  {
+    "key": "o-skole/zdruzenie-rodicov-skoly",
+    "title": "Združenie rodičov"
+  },
+  {
+    "key": "o-skole/zdruzenie-rodicov-skoly/cerpanie-prispevkov",
+    "title": "Čerpanie príspevkov"
+  },
+  {
+    "key": "o-skole/zdruzenie-rodicov-skoly/stanovy",
+    "title": "Stanovy združenia rodičov"
+  },
+  {
+    "key": "o-skole/zdruzenie-rodicov-skoly/udaje-a-cislo-uctu",
+    "title": "Údaje a číslo účtu"
+  },
+  {
+    "key": "o-skole/zriadovatel",
+    "title": "Zriaďovateľ"
+  },
+  {
+    "key": "pre-uchadzacov",
+    "title": "Pre uchádzačov"
+  },
+  {
+    "key": "pre-uchadzacov/informacie-o-studiu",
+    "title": "Informácie o štúdiu"
+  },
+  {
+    "key": "pre-uchadzacov/metodicky-den",
+    "title": "Metodický deň"
+  },
+  {
+    "key": "pre-uchadzacov/mimoriadne-nadani-ziaci",
+    "title": "Zásady prijímania a vzdelávania mimoriadne nadaných žiakov na Konzervatóriu v Žiline"
+  },
+  {
+    "key": "pre-uchadzacov/o-nas-video",
+    "title": "O nás - video"
+  },
+  {
+    "key": "pre-uchadzacov/preco-si-vybrat-prave-nas",
+    "title": "Prečo si vybrať práve nás?"
+  },
+  {
+    "key": "pre-uchadzacov/prestup-ziaka-na-nasu-skolu",
+    "title": "Prestup žiaka na našu školu"
+  },
+  {
+    "key": "pre-uchadzacov/prijimacie-konanie",
+    "title": "Podmienky a kritériá pre prijímanie žiakov"
+  },
+  {
+    "key": "pre-uchadzacov/ubytovanie-a-stravovanie",
+    "title": "Ubytovanie a stravovanie"
+  },
+  {
+    "key": "pre-uchadzacov/uplatnenie-absolventov",
+    "title": "Uplatnenie absolventov"
+  },
+  {
+    "key": "pre-ziakov",
+    "title": "Pre študentov"
+  },
+  {
+    "key": "pre-ziakov/absolventska-skuska",
+    "title": "Absolventská skúška"
+  },
+  {
+    "key": "pre-ziakov/kniznica",
+    "title": "Školská hudobná knižnica"
+  },
+  {
+    "key": "pre-ziakov/maturitna-skuska",
+    "title": "Maturitná skúška"
+  },
+  {
+    "key": "pre-ziakov/preukaz-ziaka-isic-euro26",
+    "title": "Preukaz žiaka ISIC/EURO26"
+  },
+  {
+    "key": "pre-ziakov/skolsky-parlament",
+    "title": "Školský parlament"
+  },
+  {
+    "key": "pre-ziakov/uspechy-studentov",
+    "title": "Úspechy študentov"
+  },
+  {
+    "key": "pre-ziakov/uspechy-studentov/diplomy",
+    "title": "Diplomy"
+  },
+  {
+    "key": "pre-ziakov/uspechy-studentov/uspechy",
+    "title": "Úspechy študentov"
+  },
+  {
+    "key": "pre-ziakov/vychovne-a-karierove-poradenstvo",
+    "title": "Výchovné a kariérové poradenstvo"
+  },
+  {
+    "key": "tlaciva",
+    "title": "Tlačivá"
+  },
+  {
+    "key": "tlaciva/ine-tlaciva-a-ziadosti",
+    "title": "Iné tlačivá a žiadosti"
+  },
+  {
+    "key": "tlaciva/pre-absolventov",
+    "title": "Pre absolventov"
+  },
+  {
+    "key": "tlaciva/pre-pedagogov",
+    "title": "Tlačivá na stiahnutie pre pedagógov"
+  },
+  {
+    "key": "tlaciva/pre-ziakov",
+    "title": "Tlačivá na stiahnutie pre žiakov"
+  },
+  {
+    "key": "pre-uchadzacov/predbezne-vysledky-prijimacich-skusok",
+    "title": "Výsledky prijímacích skúšok"
+  },
+  {
+    "key": "aktualne/koncert",
+    "title": "Koncerty a podujatia"
+  },
+  {
+    "key": "skola/73-o-skole",
+    "title": "O konzervatóriu"
+  },
+  {
+    "key": "projekty/piano-forum",
+    "title": "Piano Forum"
+  },
+  {
+    "key": "projekty/sutaz-rudolfa-petraka",
+    "title": "Súťaž Rudolfa Petráka"
+  }
+]

@@ -1,0 +1,16 @@
+import {createRoot} from 'react-dom/client';
+import Site,{type View} from './app/site';
+import pages from './app/content/pages.json';
+import type {ContentPage} from './app/content/types';
+import {translated,type Lang} from './app/i18n';
+import './app/globals.css';
+import './app/art-direction.css';
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const path=decodeURI(window.location.pathname).slice(base.length).replace(/\/$/,'')||'/';
+const lang:Lang=new URLSearchParams(window.location.search).get('lang')==='en'?'en':'sk';
+const known=['studium','uchadzaci','koncerty','skola','studenti','kontakt'];
+const key=path.startsWith('/informacie/')?path.slice('/informacie/'.length):'';
+const article=pages.find(p=>p.key===key) as ContentPage|undefined;
+const view:View=article?'content':path==='/'?'home':known.includes(path.slice(1))?path.slice(1) as View:'home';
+document.title=(article?translated(article.title,lang):lang==='en'?'KONZA — We live for art.':'KONZA — Žijeme umením.')+' | Konzervatórium Žilina';
+createRoot(document.getElementById('root')!).render(<Site view={view} initialLang={lang} article={article}/>);
